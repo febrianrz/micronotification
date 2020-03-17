@@ -1,0 +1,25 @@
+{
+    "name": "febrianrz/micronotification",
+    "description": "Plugin send notification untuk Alter Notification",
+    "authors": [
+        {
+            "name": "febrian reza",
+            "email": "febrianrz@gmail.com"
+        }
+    ],
+    "require": {},
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Febrianrz\\Micronotification\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Febrianrz\\Micronotification\\MicroServiceProvider"
+            ]
+        }
+    },
+    "prefer-stable": true
+}
