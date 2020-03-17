@@ -6,7 +6,7 @@ use GuzzleHttp\Client;
 
 class Notif {
 
-    public static function send($to,$option)
+    public static function send($to,$user_id, $option)
     {
         if(!is_array($option)) dd("Option harus berupa array");
         if(!isset($option['subject'])) dd("Option subject wajib diisi");
